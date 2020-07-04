@@ -62,3 +62,8 @@
         </footer>
     </html>
     ~~~
+----------
+* Enlaces útiles:
+    * [W3C] (https://www.w3.org/)
+    * [HTML_5.3] (https://www.w3.org/TR/2018/WD-html53-20181018/)
+    * [Elementos_de_HTML] (https://www.w3.org/TR/2018/WD-html53-20181018/semantics.html#semantics)
