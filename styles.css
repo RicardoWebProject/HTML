@@ -2,3 +2,11 @@ img {
     height: 150px;
     width: 250px;
 }
+
+p[data-parrafo="texto"] {
+    color: darkorange;
+}
+
+p[data-parrafo="texto2"] {
+    color: blueviolet;
+}
