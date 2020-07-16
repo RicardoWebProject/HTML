@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <table border="1"> 
+        <!-- El atributo border está solamente para dar estética, pero no se debe de utilizar bajo ningún otro concepto -->
+        <caption>Horario</caption> <!--Tpitulo de la tabla-->
+        <colgroup>
+            <col class="amarillo">
+            <col class="rojo">
+            <col class="verde">
+            <col class="anaranjado">
+            <col class="celeste">
+            <col class="violeta">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11:10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">12:10</td>
+                <td colspan="5">Descanso</td>
+            </tr>
+            <tr>
+                <td colspan="5">Charla</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total de Horas</td>
+                <td colspan="5">4 Horas</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
