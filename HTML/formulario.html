@@ -1,0 +1,39 @@
+<!--
+    TIPOS DE INPUTS:
+    form - encierra todos los campos del formulario
+    label - representa el nombre del campo
+    input type=
+    text (default) - Entrada de texto
+    password - campo para contraseñas (no encripta, sólo oculta)
+    number - permite introducir únicamente valores numéricos
+    submit - botón para enviar el formulario
+    button - igual que submit
+    image - enviar el formulario usando una imagen personalizada
+    button - este tipo fue sustituido en HTML5 por la etiqueta button que teneís a continuación
+    <button></button> - igual que submit
+    reset - reinicia el formulario vaciando los campos
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/forms.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="#"> <!--La almohadilla # evita el comportamiento por default-->
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name">
+
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad">
+
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass">
+
+        <input type="submit" value="Subir Datos">
+        <input type="reset" value="Reestablecer Formulario">
+    </form>
+</body>
+</html>
